@@ -44,14 +44,13 @@ This program launches **6 POSIX threads** executing two separate thread function
 
 ---
 
-## How to Compile
+## Compile & Run
 
 ```bash
+# Compile
 gcc -o process_tree process_tree.c
 gcc -pthread -o thread_sync thread_sync.c
 
-## How to Run
-
-```bash
+# Run
 ./process_tree
 ./thread_sync
