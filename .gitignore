@@ -1,0 +1,34 @@
+# Build output
+bin/
+build/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+*.dSYM/
+
+# Compiled binaries built in the project root
+process_tree
+threads_posix
+
+# Debug / profiling artifacts
+core
+core.*
+vgcore.*
+*.gcda
+*.gcno
+gmon.out
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
